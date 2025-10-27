@@ -26,7 +26,7 @@ Provide an automated system to track, validate, and assign credit points to prof
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/certification-agent-langgraph.git
+git clone https://github.com/alishlgtm/certification-agent-langgraph.git
 cd certification-agent-langgraph
 ```
 
