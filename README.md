@@ -122,15 +122,6 @@ You will get 10 credit points for that cert.
 | Associate or HashiCorp | 5.0 |
 | Fundamentals or Other | 2.5 |
 
-### Supported Certifications
-
-- **AWS**: Solutions Architect, Developer, SysOps Administrator, DevOps Engineer, AI Practitioner
-- **HashiCorp**: Terraform Associate
-- **Microsoft Azure**: Fundamentals, Solutions Architect Expert
-- **Google Cloud**: Professional Cloud Architect
-- **Kubernetes**: CKA (Certified Kubernetes Administrator)
-- **Security**: CompTIA Security+, CISSP
-- And many more...
 
 ## 📁 Project Structure
 
@@ -238,31 +229,3 @@ Key packages:
 
 See `requirements.txt` for complete list.
 
-## 🤝 Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Built with [LangGraph](https://github.com/langchain-ai/langgraph)
-- Powered by [Groq](https://groq.com/) inference
-- Certification data from [Credly](https://www.credly.com/)
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub.
-
----
-
-**Made with ❤️ using LangGraph and ReAct pattern**
-# Programmatically (run this in Python after setup)
-python -c "from langgraph_cred_agent import run_agent; response = run_agent('How many credit points can I get for https://www.credly.com/badges/...'); print(response)"
