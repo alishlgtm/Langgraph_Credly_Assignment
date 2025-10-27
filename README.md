@@ -61,7 +61,8 @@ The agent follows this workflow:
 ├── langgraph.json
 ├── requirements.txt
 ├── .env                         # with GROQ_API_KEY=your_key
-└── README.md                    
+└── README.md
+```                 
 The script includes built-in test cases for:
 - Expired certifications
 - Valid certifications
