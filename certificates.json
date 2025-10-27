@@ -1,0 +1,59 @@
+[
+  {
+    "certificate_name": "AWS Certified Solutions Architect – Associate",
+    "credit_points": 2.5
+  },
+  {
+    "certificate_name": "AWS Certified AI Practitioner",
+    "credit_points": 2.0
+  },
+  {
+    "certificate_name": "AWS Certified Security",
+    "credit_points": 3.0
+  },
+  {
+    "certificate_name": "AWS Certified Cloud Practitioner",
+    "credit_points": 2.0
+  },
+  {
+    "certificate_name": "AWS Certified Developer",
+    "credit_points": 2.5
+  },
+  {
+    "certificate_name": "AWS Certified DevOps Engineer",
+    "credit_points": 5.0
+  },
+  {
+    "certificate_name": "AWS Certified Machine Learning",
+    "credit_points": 3.0
+  },
+  {
+    "certificate_name": "AWS Certified SysOps Administrator",
+    "credit_points": 2.5
+  },
+  {
+    "certificate_name": "AWS Certified Advanced Networking",
+    "credit_points": 3.0
+  },
+  {
+    "certificate_name": "AWS Certified Database",
+    "credit_points": 3.0
+  },
+  {
+    "certificate_name": "AWS Certified Data Analytics",
+    "credit_points": 3.0
+  },
+
+  {
+    "certificate_name": "Microsoft Azure Fundamentals",
+    "credit_points": 1.5
+  },
+  {
+    "certificate_name": "Python for Data Science",
+    "credit_points": 1.5
+  },
+  {
+    "certificate_name": "Google Cloud Professional Cloud Architect",
+    "credit_points": 5.0
+  }
+]
