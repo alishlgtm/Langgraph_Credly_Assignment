@@ -56,7 +56,7 @@ The agent follows this workflow:
 
 ## Project Structure
 ```
-── certifications.json         
+├── certifications.json         
 ├── manual_definition.py
 ├── langgraph.json
 ├── requirements.txt
