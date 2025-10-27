@@ -70,7 +70,8 @@ The script includes built-in test cases for:
 ## Query & Traces (Reference Screenshots)
 ![image](https://github.com/user-attachments/assets/a3fbdb9e-b033-451c-b62d-291c94864ecd)
 <img width="1448" height="649" alt="image" src="https://github.com/user-attachments/assets/fe58bcb6-fe97-4595-a170-720957bb0a84" />
-![Uploading image.png…]()
+<img width="1456" height="649" alt="image" src="https://github.com/user-attachments/assets/bf8dbf07-2cbd-4cbf-85d1-348440cd1789" />
+
 
 <img width="1460" height="649" alt="image" src="https://github.com/user-attachments/assets/9667599b-0fee-49ff-b60a-8803844a3f3e" />
 
