@@ -35,53 +35,6 @@ Provide an automated system to track, validate, and assign credit points to prof
 langgraph dev
 ```
 
-### Programmatically
-```python
-from credly_updated import run_agent
-
-response = run_agent("How many credit points can I get for https://www.credly.com/badges/...")
-print(response)
-```
-
-## 🗣️ User Interaction Examples
-
-### Query Type 1: Expired Certification
-
-**User Input:**
-```
-How many credit points can I get for https://www.credly.com/badges/e192db17-f8c5-46aa-8f99-8a565223f1d6?
-```
-
-**Agent Response:**
-```
-Sorry, your cert has expired. So you won't get any credit points. 
-But otherwise you would have stood to obtain 5 credit points for your HashiCorp Terraform Associate.
-```
-
-### Query Type 2: Valid Certification
-
-**User Input:**
-```
-What about https://www.credly.com/badges/90ee2ee9-f6cf-4d9b-8a52-f631d8644d58?
-```
-
-**Agent Response:**
-```
-I see that this is an AWS Certified AI Practitioner. And it is still valid. 
-So you can be granted 2.5 credit points for it.
-```
-
-### Query Type 3: Hypothetical Certification
-
-**User Input:**
-```
-If I clear AWS Solutions Architect Professional, how many points will I get?
-```
-
-**Agent Response:**
-```
-You will get 10 credit points for that cert.
-```
 
 ## 📊 Credit Point System
 
