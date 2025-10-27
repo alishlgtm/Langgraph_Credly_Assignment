@@ -125,3 +125,5 @@ The script includes built-in test cases for:
 - Valid certifications
 - Hypothetical queries
 ## Query & Traces (Reference Screenshots)
+![image](https://github.com/user-attachments/assets/a3fbdb9e-b033-451c-b62d-291c94864ecd)
+
