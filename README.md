@@ -101,7 +101,14 @@ The agent follows this workflow:
 4. **Calculate**: Assigns appropriate credit points
 5. **Respond**: Formats response based on validity status
 
-
+## Project Structure
+```
+── certifications.json         
+├── manual_definition.py
+├── langgraph.json
+├── requirements.txt
+├── .env                         # with GROQ_API_KEY=your_key
+└── README.md                    
 The script includes built-in test cases for:
 - Expired certifications
 - Valid certifications
