@@ -22,57 +22,28 @@ Provide an automated system to track, validate, and assign credit points to prof
 - Python 3.8 or higher
 - Groq API Key ([Get one here](https://console.groq.com))
 
-### Installation
+## Setup
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/alishlgtm/certification-agent-langgraph.git
-cd certification-agent-langgraph
-```
+### Prerequisites
+- Python 3.8+
+- Groq API Key
 
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+## Usage
 
-3. **Set up environment variables**
-```bash
-export GROQ_API_KEY="your_groq_api_key_here"
-```
-
-Or create a `.env` file:
-```
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-4. **Initialize the database**
-```bash
-python setup_database.py
-```
-
-## 💡 Usage
-
-### With LangGraph Studio (Recommended)
-
-Launch the interactive development environment:
-
+### With LangGraph Studio
 ```bash
 langgraph dev
 ```
 
-Then open the Studio UI at: `https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024`
-
-### Programmatic Usage
-
+### Programmatically
 ```python
-from langgraph_cred_agent import run_agent
+from credly_updated import run_agent
 
-# Example: Check credit points for a Credly URL
-response = run_agent(
-    "How many credit points can I get for https://www.credly.com/badges/e192db17-f8c5-46aa-8f99-8a565223f1d6?"
-)
+response = run_agent("How many credit points can I get for https://www.credly.com/badges/...")
 print(response)
 ```
+
+
 
 ## 🗣️ User Interaction Examples
 
@@ -148,26 +119,7 @@ The agent follows this workflow:
 4. **Calculate**: Assigns appropriate credit points
 5. **Respond**: Formats response based on validity status
 
-### Tool Chain
 
-```
-User Query → extract_certification_data → check_certification_validity → get_certification_points → Formatted Response
-```
-
-## 🔧 Configuration
-
-### Database Categories
-
-Edit `setup_database.py` to modify certification categories and point values:
-
-```python
-certifications = [
-    ('AWS Certified Solutions Architect - Professional', 10.0),
-    ('HashiCorp Certified: Terraform Associate', 5.0),
-    ('AWS Certified AI Practitioner', 2.5),
-    # Add more certifications...
-]
-```
 The script includes built-in test cases for:
 - Expired certifications
 - Valid certifications
