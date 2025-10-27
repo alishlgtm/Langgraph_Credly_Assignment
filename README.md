@@ -43,8 +43,6 @@ response = run_agent("How many credit points can I get for https://www.credly.co
 print(response)
 ```
 
-
-
 ## 🗣️ User Interaction Examples
 
 ### Query Type 1: Expired Certification
@@ -92,22 +90,6 @@ You will get 10 credit points for that cert.
 | Professional or Specialty | 10.0 |
 | Associate or HashiCorp | 5.0 |
 | Fundamentals or Other | 2.5 |
-
-
-## 📁 Project Structure
-
-```
-certification-agent-langgraph/
-├── langgraph_cred_agent.py      # Main LangGraph ReAct agent
-├── webscrap_cred_v2.py          # Credly web scraper module
-├── setup_database.py            # Database initialization script
-├── sqlite_cert.py               # Legacy database utilities
-├── certifications_data.db       # SQLite database (generated)
-├── langgraph.json               # LangGraph configuration
-├── requirements.txt             # Python dependencies
-├── .env                         # Environment variables (create this)
-└── README.md                    # Documentation
-```
 
 ## 🛠️ How It Works
 
