@@ -1,0 +1,74 @@
+[
+  {
+    "certificate_name": "HashiCorp Certified: Terraform Associate",
+    "credit_points": 5.0
+  },
+  {
+    "certificate_name": "AWS Certified AI Practitioner",
+    "credit_points": 2.5
+  },
+  {
+    "certificate_name": "AWS Certified Solutions Architect - Professional",
+    "credit_points": 10.0
+  },
+  {
+    "certificate_name": "AWS Certified Solutions Architect - Associate",
+    "credit_points": 5.0
+  },
+  {
+    "certificate_name": "AWS Certified Developer - Associate",
+    "credit_points": 5.0
+  },
+  {
+    "certificate_name": "AWS Certified SysOps Administrator - Associate",
+    "credit_points": 5.0
+  },
+  {
+    "certificate_name": "AWS Certified DevOps Engineer - Professional",
+    "credit_points": 10.0
+  },
+  {
+    "certificate_name": "Google Cloud Professional Cloud Architect",
+    "credit_points": 8.0
+  },
+  {
+    "certificate_name": "Google Cloud Professional Data Engineer",
+    "credit_points": 8.0
+  },
+  {
+    "certificate_name": "Microsoft Certified: Azure Solutions Architect Expert",
+    "credit_points": 8.0
+  },
+  {
+    "certificate_name": "Microsoft Certified: Azure Administrator Associate",
+    "credit_points": 5.0
+  },
+  {
+    "certificate_name": "Certified Kubernetes Administrator (CKA)",
+    "credit_points": 7.0
+  },
+  {
+    "certificate_name": "Certified Kubernetes Application Developer (CKAD)",
+    "credit_points": 6.0
+  },
+  {
+    "certificate_name": "Docker Certified Associate",
+    "credit_points": 4.0
+  },
+  {
+    "certificate_name": "CompTIA Security+",
+    "credit_points": 4.5
+  },
+  {
+    "certificate_name": "Certified Information Systems Security Professional (CISSP)",
+    "credit_points": 9.0
+  },
+  {
+    "certificate_name": "Python Institute PCAP",
+    "credit_points": 3.0
+  },
+  {
+    "certificate_name": "Oracle Certified Professional Java SE Programmer",
+    "credit_points": 4.5
+  }
+]
