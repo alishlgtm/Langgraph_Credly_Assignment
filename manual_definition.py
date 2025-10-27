@@ -158,14 +158,6 @@ graph_builder.add_edge(START, "chatbot")
 
 graph = graph_builder.compile()
 
-# System prompt for the agent
-SYSTEM_PROMPT = """You are a certification credit points assistant. Help users determine:
-1. How many credit points they can get for specific certifications
-2. Whether their certifications are still valid
-3. Extract certification information from Credly URLs
-
-Use the available tools to get accurate information about certification points and validity."""
-
 def create_certification_agent():
     """Create and compile the LangGraph ReAct agent."""
     
